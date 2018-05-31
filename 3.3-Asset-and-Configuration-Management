@@ -1,0 +1,49 @@
+## Overview 
+
+Asset & Configuration Management processes focus on how software and hardware assets that provide technical capabilities are management by the organization, from asset acquisition to retirement. All assets - also referred to as "Configuration Items" (CIs) - that enable services are managed by a component of Change Management, and changes to CIs impact the SLA for the service. 
+Asset & Configuration Management processes also ensure that all CI data is up-to-date and that deviation from known state is managed. 
+Service Management and Change Management and all other processes use the data from Asset & Configuration Management to add details to their processes. 
+
+ 
+
+Note: Financial IT Asset Management is an overlapping but separate discipline; the focus for this section is on service dependency. 
+
+ 
+
+## The Modern Approach 
+
+Automated population and reconciliation with inherent service dependency which incorporates both CIs (logical, virtual, non-financial) and assets. Proactive configuration is based on dynamic discovery utilizing a cloud service based approach, rather than building services based on components. 
+
+ 
+
+### Definitions 
+
+<TODO> 
+
+ 
+
+### Key Questions to Get Started 
+
+- What data sources are used for your Asset and Configuration Management database/processes? 
+- Are all assets/CIs contained in the CMDB linked to services? 
+- Have you defined retention periods set for the different instances within a workload? 
+- If yes, what are the retention policies? 
+- How is configuration compliance (configuration drift) tracked, managed, and enforced? 
+
+ 
+
+### Asset & Configuration Management Processes 
+
+At a high-level the key processes to establish for asset & configuration management are as follows: 
+
+- Data Source Management processes: 
+  - Synchronize Data sources 
+  - Detect and Remove Orphan Resources 
+- Retention processes: 
+  - Update Retention Periods 
+  - Check On Retention Periods 
+- Asset and Configuration Management processes: 
+  - Add New Items to CMDB 
+  - Update Configuration in CMDB 
+  - Remote Item from CMDB 
+  - Configuration Compliance Check 
