@@ -1,0 +1,69 @@
+Overview 
+
+Access Management is effectively the execution of both Availability and Information Security Management, in that it enables the organization to manage the confidentiality, availability and integrity of the organization’s data and intellectual property. Access Management is a process that is executed by all Technical and Application Management functions and is usually not a separate function. However, there is likely to be a single control point of coordination, usually in IT Operations Management or on the Service Desk. 
+
+ 
+
+The Modern Approach 
+
+Access is assigned real-time and on-demand. There should be no standing access to production systems or user data. Humans should not add (or configure) capacity or deployments - it should all be automated. If there is no standing access and if all capacity and deployments/releases occur through code, the complexity is minimized and the human factor is minimized. 
+
+ 
+
+Definitions 
+
+Access: Refers to the level and extent of a service's functionality of data that a user is entitled to use. 
+
+Identity: Refers to the information about them that distinguishes them as an individual and which verifies their status within the organization. By definition, the identity of a user is unique to that user. 
+
+Rights (also called Privileges): Refer to the actual settings whereby a user is provided access to a service or group of services. Typical rights, or levels of access, include read, write, execute, change, delete. 
+
+Services or Service Groups: Most users do not use only one service, and users performing a similar set of activities will use a similar set of activities. Instead of providing access to each service for each user separately, it is more efficient to be able to grant each user - or group of users - access to the whole set of services that they are entitled to use at the same time. 
+
+ 
+
+Key Questions to Get Started 
+
+Does the cloud principle 'Create a seamless user experience' apply? 
+
+Is this an opportunity to consider RBAC? 
+
+What services require maximum access versus maximum control? 
+
+Have you defined all potential consumer roles in the Service Provider and Service Consumer organization? 
+
+ 
+
+Access Management Processes 
+
+At a high-level the key processes to establish for access management are as follows: 
+
+ 
+
+Role Management: 
+
+Add User to Role 
+
+Update User Information 
+
+Remove User from Role 
+
+Group Policies: 
+
+Provision Group Policy 
+
+Update Group Policy 
+
+Decommission Group Policy 
+
+ 
+
+Process Workflow 
+
+Access Management can be initiated by a Service Request through the Customer L2 Service Desk. 
+
+Based on the Service Request, Managed Services will grant or deny required access on the Azure environment. 
+
+Onboarding and offboarding of Partner resources will be taken care of by Managed Services. 
+
+Likewise, Managed Services will contact the Microsoft Application team in case of any access management clarification. 
